@@ -181,7 +181,8 @@ bool CameraFTPFreenect::isCalibrated() const
 
 std::string CameraFTPFreenect::getSerial() const
 {
-	return "";
+	//test guid
+	return "cf1048ca2680408ba90896f6367dae05";
 }
 
 SensorData CameraFTPFreenect::captureImage(CameraInfo * info)
