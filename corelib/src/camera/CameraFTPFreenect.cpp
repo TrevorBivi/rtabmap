@@ -179,6 +179,11 @@ bool CameraFTPFreenect::isCalibrated() const
 	return true;
 }
 
+bool CameraFTPFreenect::available() const
+{
+	return true;
+}
+
 std::string CameraFTPFreenect::getSerial() const
 {
 	return "";
