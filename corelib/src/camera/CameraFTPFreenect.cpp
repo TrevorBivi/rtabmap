@@ -179,7 +179,7 @@ bool CameraFTPFreenect::isCalibrated() const
 	return true;
 }
 
-bool CameraFTPFreenect::available() const
+static bool CameraFTPFreenect::available() const
 {
 	return true;
 }
